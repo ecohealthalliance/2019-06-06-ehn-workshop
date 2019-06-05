@@ -5,6 +5,7 @@ MAINTAINER ross@ecohealthalliance.org
 USER root
 COPY . ${HOME}
 RUN chown -R ${NB_USER} ${HOME}
+RUN install2.r deSolve
 
 ## Become normal user again
 USER ${NB_USER}
@@ -13,5 +14,4 @@ USER ${NB_USER}
 
 ## Run an install.R script, if it exists.
 
-RUN install2.r deSolve
 RUN if [ -f DESCRIPTION ]; then R --quiet -e "devtools::install(dep=TRUE)"; fi
