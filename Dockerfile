@@ -9,5 +9,9 @@ RUN chown -R ${NB_USER} ${HOME}
 ## Become normal user again
 USER ${NB_USER}
 
+
+
 ## Run an install.R script, if it exists.
+
+RUN install2.r deSolve
 RUN if [ -f DESCRIPTION ]; then R --quiet -e "devtools::install(dep=TRUE)"; fi
