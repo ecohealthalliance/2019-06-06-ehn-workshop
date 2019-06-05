@@ -1,3 +1,19 @@
+# Hello! Welcome to the EcoHealth Neet Modeling Workshop
+#
+# I'm your instructor, Dr. Noam Ross of EcoHealth Alliance.
+# We'll walk through this code today.
+#
+# Later, you'll be able to find the materials for this workshop here:
+# Find it at https://github.com/ecohealthalliance/2019-06-06-ehn-workshop
+#
+# Launch the work environment by clicking https://bit.ly/ehn2019
+#
+# Questions after the workshop? Contact me at ross@ecohealthalliance.org,
+# and I'm on Twitter as @noamross
+#
+
+# Let's begin! We'll go through this together.
+#
 # Setting the model parameters
 ## ------------------------------------------------------------------------
 
